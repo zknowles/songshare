@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/zacharyknowles/projects/songshare/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/zacharyknowles/projects/songshare/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/zacharyknowles/projects/songshare/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

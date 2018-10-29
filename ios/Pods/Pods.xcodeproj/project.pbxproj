@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4841174C26756AFB22732CBF43CA30AE /* Pods-songshare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBEB6D255BEB72342B6B8AEA958D5 /* Pods-songshare-dummy.m */; };
+		7DEA6EEF66CD606A3D2287D2BED93E78 /* Pods-songshare-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB8977683641BDFCE0605A6D11EC006 /* Pods-songshare-tvOSTests-dummy.m */; };
+		A8F553E080E082E217D0C69EB7DCB804 /* Pods-songshareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E24A621C0F71AEBC9F7A32B1A2964B8 /* Pods-songshareTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FC0D878B4CAB16AE3FBED5A6FDFB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEEE0B5EF0F6FE7B41102DDDA057931;
+			remoteInfo = "Pods-songshare";
+		};
+		FB456570768AE8834518DF7FDF5529C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEEE0B5EF0F6FE7B41102DDDA057931;
+			remoteInfo = "Pods-songshare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120A365FCF64F4AAA1BED6FF3C2BDAAB /* libPods-songshareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-songshareTests.a"; path = "libPods-songshareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C2A21B80BB51289DADD2550ECE053D /* Pods-songshareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-songshareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16495F267D4A353690868B68A6B7F3BC /* Pods-songshare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-songshare-frameworks.sh"; sourceTree = "<group>"; };
+		26809AE0CEBA52DB9C4B0168C2478A6F /* Pods-songshareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-songshareTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		286EF47F3369247058D0D23B06A5A50B /* Pods-songshareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-songshareTests.release.xcconfig"; sourceTree = "<group>"; };
+		355CF6EA482DBB02470BC2F5913B6F61 /* Pods-songshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-songshare.release.xcconfig"; sourceTree = "<group>"; };
+		48EE3D298D9F9052685EFA2CF8350C9D /* Pods-songshareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-songshareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55FFE842DD20052A72AAA2EB9527A8B9 /* libPods-songshare-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-songshare-tvOSTests.a"; path = "libPods-songshare-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF2C87BA56278F814C192AEEEFCFBC3 /* Pods-songshare-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-songshare-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F617D969F8311103C217C4F03E47259 /* Pods-songshare-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-songshare-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		83BCA71E866AD7128835B82CC83DBB91 /* Pods-songshareTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-songshareTests-frameworks.sh"; sourceTree = "<group>"; };
+		89ECD338A595D135790614365784F911 /* Pods-songshare-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-songshare-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EBD37AA281533B27AD47A54AD7E697B /* libPods-songshare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-songshare.a"; path = "libPods-songshare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		903939030CE90DB9C0843AB49DC19BF5 /* Pods-songshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-songshare.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DEBEB6D255BEB72342B6B8AEA958D5 /* Pods-songshare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-songshare-dummy.m"; sourceTree = "<group>"; };
+		9E24A621C0F71AEBC9F7A32B1A2964B8 /* Pods-songshareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-songshareTests-dummy.m"; sourceTree = "<group>"; };
+		9FB8977683641BDFCE0605A6D11EC006 /* Pods-songshare-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-songshare-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		A4F66C7D788DB46634333813AD3E232A /* Pods-songshareTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-songshareTests-resources.sh"; sourceTree = "<group>"; };
+		A92EE97B512F4A19301375F367151D99 /* Pods-songshare-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-songshare-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C24F40B7DB9BD6BAA7DE76CFA30581F2 /* Pods-songshare-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-songshare-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E379679D6CBCEA48CFB27B7541C8A504 /* Pods-songshare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-songshare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5FF6F60FDC79C9066ABA6ACF3EC36EF /* Pods-songshare-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-songshare-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		F6E329044486A29794BD620EBDB11EE8 /* Pods-songshare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-songshare-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF63096BB4EC72F308D739825A60CEFC /* Pods-songshare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-songshare-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28DE9B9C8A100ED77A8733F3B3210BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9C56E0773BA63DE32CFF6EB050FBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0F083E75A8F0AFCC21132FFB82AE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18ED0A18F080DF8998C989B4BEEC2D2E /* Pods-songshare-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF2C87BA56278F814C192AEEEFCFBC3 /* Pods-songshare-tvOSTests-acknowledgements.markdown */,
+				A92EE97B512F4A19301375F367151D99 /* Pods-songshare-tvOSTests-acknowledgements.plist */,
+				9FB8977683641BDFCE0605A6D11EC006 /* Pods-songshare-tvOSTests-dummy.m */,
+				5F617D969F8311103C217C4F03E47259 /* Pods-songshare-tvOSTests-frameworks.sh */,
+				F5FF6F60FDC79C9066ABA6ACF3EC36EF /* Pods-songshare-tvOSTests-resources.sh */,
+				C24F40B7DB9BD6BAA7DE76CFA30581F2 /* Pods-songshare-tvOSTests.debug.xcconfig */,
+				89ECD338A595D135790614365784F911 /* Pods-songshare-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-songshare-tvOSTests";
+			path = "Target Support Files/Pods-songshare-tvOSTests";
+			sourceTree = "<group>";
+		};
+		345EA3DD85A1737EFDF09C54D7484B58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54CBA21F49F4E188DF6EB98B6CD81909 /* Pods-songshare */,
+				18ED0A18F080DF8998C989B4BEEC2D2E /* Pods-songshare-tvOSTests */,
+				5A93202CCDD96CC88B22A428A2D87425 /* Pods-songshareTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F3A0F240B31B02792310CE0C77B2198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD37AA281533B27AD47A54AD7E697B /* libPods-songshare.a */,
+				55FFE842DD20052A72AAA2EB9527A8B9 /* libPods-songshare-tvOSTests.a */,
+				120A365FCF64F4AAA1BED6FF3C2BDAAB /* libPods-songshareTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CBA21F49F4E188DF6EB98B6CD81909 /* Pods-songshare */ = {
+			isa = PBXGroup;
+			children = (
+				E379679D6CBCEA48CFB27B7541C8A504 /* Pods-songshare-acknowledgements.markdown */,
+				F6E329044486A29794BD620EBDB11EE8 /* Pods-songshare-acknowledgements.plist */,
+				93DEBEB6D255BEB72342B6B8AEA958D5 /* Pods-songshare-dummy.m */,
+				16495F267D4A353690868B68A6B7F3BC /* Pods-songshare-frameworks.sh */,
+				FF63096BB4EC72F308D739825A60CEFC /* Pods-songshare-resources.sh */,
+				903939030CE90DB9C0843AB49DC19BF5 /* Pods-songshare.debug.xcconfig */,
+				355CF6EA482DBB02470BC2F5913B6F61 /* Pods-songshare.release.xcconfig */,
+			);
+			name = "Pods-songshare";
+			path = "Target Support Files/Pods-songshare";
+			sourceTree = "<group>";
+		};
+		5A93202CCDD96CC88B22A428A2D87425 /* Pods-songshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				48EE3D298D9F9052685EFA2CF8350C9D /* Pods-songshareTests-acknowledgements.markdown */,
+				26809AE0CEBA52DB9C4B0168C2478A6F /* Pods-songshareTests-acknowledgements.plist */,
+				9E24A621C0F71AEBC9F7A32B1A2964B8 /* Pods-songshareTests-dummy.m */,
+				83BCA71E866AD7128835B82CC83DBB91 /* Pods-songshareTests-frameworks.sh */,
+				A4F66C7D788DB46634333813AD3E232A /* Pods-songshareTests-resources.sh */,
+				12C2A21B80BB51289DADD2550ECE053D /* Pods-songshareTests.debug.xcconfig */,
+				286EF47F3369247058D0D23B06A5A50B /* Pods-songshareTests.release.xcconfig */,
+			);
+			name = "Pods-songshareTests";
+			path = "Target Support Files/Pods-songshareTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				3F3A0F240B31B02792310CE0C77B2198 /* Products */,
+				345EA3DD85A1737EFDF09C54D7484B58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		98CD25284665B4E265197E667F674E08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D6B03D1201D11D2CCF29588ABFC795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D600A3448F05689627951666D86418CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B7D7E60822BDE7F7545D8BF0474F140 /* Pods-songshare-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA0D43FCE2C155E45F739CEBA5E4BD /* Build configuration list for PBXNativeTarget "Pods-songshare-tvOSTests" */;
+			buildPhases = (
+				D600A3448F05689627951666D86418CB /* Headers */,
+				43B774EB38253D25135EAF304656B561 /* Sources */,
+				28DE9B9C8A100ED77A8733F3B3210BD3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DFF352D959FFD3D915A2D5FC5314ED /* PBXTargetDependency */,
+			);
+			name = "Pods-songshare-tvOSTests";
+			productName = "Pods-songshare-tvOSTests";
+			productReference = 55FFE842DD20052A72AAA2EB9527A8B9 /* libPods-songshare-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFEEE0B5EF0F6FE7B41102DDDA057931 /* Pods-songshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3240602DA0D3D0849E2E5E0D3D24F7E3 /* Build configuration list for PBXNativeTarget "Pods-songshare" */;
+			buildPhases = (
+				98CD25284665B4E265197E667F674E08 /* Headers */,
+				D752C669CAF44481A4BF3937A9E9953C /* Sources */,
+				FE0F083E75A8F0AFCC21132FFB82AE6C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-songshare";
+			productName = "Pods-songshare";
+			productReference = 8EBD37AA281533B27AD47A54AD7E697B /* libPods-songshare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2BDA12108AAFB1D715603493D82FF88 /* Pods-songshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8062B14E256D5AD0DBAA142C17D16A8D /* Build configuration list for PBXNativeTarget "Pods-songshareTests" */;
+			buildPhases = (
+				D0D6B03D1201D11D2CCF29588ABFC795 /* Headers */,
+				2CF6EE2B80CD788BF3E236725192E57A /* Sources */,
+				3A9C56E0773BA63DE32CFF6EB050FBF4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C07F5132A9B5B76AC75D1624266EBAC /* PBXTargetDependency */,
+			);
+			name = "Pods-songshareTests";
+			productName = "Pods-songshareTests";
+			productReference = 120A365FCF64F4AAA1BED6FF3C2BDAAB /* libPods-songshareTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F3A0F240B31B02792310CE0C77B2198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFEEE0B5EF0F6FE7B41102DDDA057931 /* Pods-songshare */,
+				4B7D7E60822BDE7F7545D8BF0474F140 /* Pods-songshare-tvOSTests */,
+				F2BDA12108AAFB1D715603493D82FF88 /* Pods-songshareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF6EE2B80CD788BF3E236725192E57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F553E080E082E217D0C69EB7DCB804 /* Pods-songshareTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B774EB38253D25135EAF304656B561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEA6EEF66CD606A3D2287D2BED93E78 /* Pods-songshare-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D752C669CAF44481A4BF3937A9E9953C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4841174C26756AFB22732CBF43CA30AE /* Pods-songshare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C07F5132A9B5B76AC75D1624266EBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-songshare";
+			target = AFEEE0B5EF0F6FE7B41102DDDA057931 /* Pods-songshare */;
+			targetProxy = FB456570768AE8834518DF7FDF5529C7 /* PBXContainerItemProxy */;
+		};
+		78DFF352D959FFD3D915A2D5FC5314ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-songshare";
+			target = AFEEE0B5EF0F6FE7B41102DDDA057931 /* Pods-songshare */;
+			targetProxy = 45FC0D878B4CAB16AE3FBED5A6FDFB50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014795C253224C3A6EC5E746D33D2BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286EF47F3369247058D0D23B06A5A50B /* Pods-songshareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7A9F320DF04D79D14F29B713FC65BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24F40B7DB9BD6BAA7DE76CFA30581F2 /* Pods-songshare-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22847F0A88644DDA65D7CFBD269E1ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89ECD338A595D135790614365784F911 /* Pods-songshare-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C706FC44AED0EFC66AEFD5C649DA0354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355CF6EA482DBB02470BC2F5913B6F61 /* Pods-songshare.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D701B84728035CABED7653759DF60C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C2A21B80BB51289DADD2550ECE053D /* Pods-songshareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BAAB010A59CD82D8D3CA79C4EE386B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903939030CE90DB9C0843AB49DC19BF5 /* Pods-songshare.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3240602DA0D3D0849E2E5E0D3D24F7E3 /* Build configuration list for PBXNativeTarget "Pods-songshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BAAB010A59CD82D8D3CA79C4EE386B /* Debug */,
+				C706FC44AED0EFC66AEFD5C649DA0354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8062B14E256D5AD0DBAA142C17D16A8D /* Build configuration list for PBXNativeTarget "Pods-songshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D701B84728035CABED7653759DF60C2E /* Debug */,
+				014795C253224C3A6EC5E746D33D2BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA0D43FCE2C155E45F739CEBA5E4BD /* Build configuration list for PBXNativeTarget "Pods-songshare-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7A9F320DF04D79D14F29B713FC65BA /* Debug */,
+				22847F0A88644DDA65D7CFBD269E1ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
