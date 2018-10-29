@@ -6,7 +6,36 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		6R81xm35HFHcDl2jLMutxmD6s1k=
+		DOPqi1fu+r9ONToxeTHrG6iSl88=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		SdjOzThclNXu4KLO5h40hBctROA=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		xMkt3jnDeDc78TRXd0+2Z35KQLI=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		PWtqWHkq/t3jE+e2ENvRUxmH79A=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		5cRzPtVUKIvxWWkMzFSgiTN1GL4=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		kh3DL7UnDxrEpeLfSkD0a5DyoqA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -16,6 +45,26 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/songshareTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		YRqk5jE6NQOx1jJQKlr/KVk6Rak=
+		</data>
+		<key>PlugIns/songshareTests.xctest.dSYM/Contents/Resources/DWARF/songshareTests</key>
+		<data>
+		O8i8xih++TAYK9QJ3KGprBJbFcg=
+		</data>
+		<key>PlugIns/songshareTests.xctest/Info.plist</key>
+		<data>
+		iSoW0tq02wb8VTff0jW+QZX1MTs=
+		</data>
+		<key>PlugIns/songshareTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		d6I1Z7NaUKpFqSPzb5+I+wswptA=
+		</data>
+		<key>PlugIns/songshareTests.xctest/songshareTests</key>
+		<data>
+		qwCbsS2xzkGqajue1D4Uwd+Xftw=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -23,11 +72,134 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6R81xm35HFHcDl2jLMutxmD6s1k=
+			DOPqi1fu+r9ONToxeTHrG6iSl88=
 			</data>
 			<key>hash2</key>
 			<data>
-			6BVQoBDCdpbPDtUKf0tbbl1omwnFbcm+QrnERDsQuFw=
+			kGrABR4AzorTlEQGKf14E71S+5dh7uE21OQCZmGi6VI=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SdjOzThclNXu4KLO5h40hBctROA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2/iVpBjFB5Eb15yfj958wukO7l5pj6EewJRCoeXdZ+Q=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xMkt3jnDeDc78TRXd0+2Z35KQLI=
+			</data>
+			<key>hash2</key>
+			<data>
+			PbtcN1sDyKXVhsFpxcKSZjD2kcyQaK1dyQLcNorCDHY=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PWtqWHkq/t3jE+e2ENvRUxmH79A=
+			</data>
+			<key>hash2</key>
+			<data>
+			6uvXQHQXgm9gxM9mblxuWfx3k/K7uR1puBprmwDR7V4=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5cRzPtVUKIvxWWkMzFSgiTN1GL4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ygI1wWTyE9+SYWsvtxZwy/ZZDORcDcIarh3Yo7p2JWY=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kh3DL7UnDxrEpeLfSkD0a5DyoqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			fpOt7HUuqY2ezAoc4Q2s/uCD+QmTqmstpUSS9I8nCoE=
+			</data>
+		</dict>
+		<key>PlugIns/songshareTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YRqk5jE6NQOx1jJQKlr/KVk6Rak=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kg0zbV9NXGnr80DRGGvzTrigp5jAR1inaInlUHrFKsE=
+			</data>
+		</dict>
+		<key>PlugIns/songshareTests.xctest.dSYM/Contents/Resources/DWARF/songshareTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O8i8xih++TAYK9QJ3KGprBJbFcg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Om0YbBhLKFXvIEt1k02dOzbxZlhR0dvNqoH4MYHKLdQ=
+			</data>
+		</dict>
+		<key>PlugIns/songshareTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iSoW0tq02wb8VTff0jW+QZX1MTs=
+			</data>
+			<key>hash2</key>
+			<data>
+			wCaFb1I6uqe2vODdN6GEP39A0vfVAXRPA6ZdeYMe8kc=
+			</data>
+		</dict>
+		<key>PlugIns/songshareTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d6I1Z7NaUKpFqSPzb5+I+wswptA=
+			</data>
+			<key>hash2</key>
+			<data>
+			S8mc59+BmlEis+aM0cRvY5GGtT7bjB0AsLn6czyabDs=
+			</data>
+		</dict>
+		<key>PlugIns/songshareTests.xctest/songshareTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qwCbsS2xzkGqajue1D4Uwd+Xftw=
+			</data>
+			<key>hash2</key>
+			<data>
+			GGyGKi5lcUbQmgp/jd+CAkqk+0xLnvJGPNcOzP9zZsc=
 			</data>
 		</dict>
 	</dict>

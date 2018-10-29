@@ -6,6 +6,10 @@ target 'songshare' do
   # use_frameworks!
 
   # Pods for songshare
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'RCTLinkingIOS',
+  ]
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
   target 'songshare-tvOSTests' do
     inherit! :search_paths
